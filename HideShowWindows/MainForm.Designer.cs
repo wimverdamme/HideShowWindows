@@ -56,14 +56,15 @@
             this.ProgList.FormattingEnabled = true;
             this.ProgList.Location = new System.Drawing.Point(12, 98);
             this.ProgList.Name = "ProgList";
-            this.ProgList.Size = new System.Drawing.Size(509, 186);
+            this.ProgList.ScrollAlwaysVisible = true;
+            this.ProgList.Size = new System.Drawing.Size(657, 251);
             this.ProgList.TabIndex = 2;
             this.ProgList.DoubleClick += new System.EventHandler(this.ProgList_DoubleClick);
             // 
             // Hide
             // 
             this.Hide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Hide.Location = new System.Drawing.Point(12, 69);
+            this.Hide.Location = new System.Drawing.Point(72, 69);
             this.Hide.Name = "Hide";
             this.Hide.Size = new System.Drawing.Size(102, 23);
             this.Hide.TabIndex = 3;
@@ -73,8 +74,8 @@
             // 
             // Show
             // 
-            this.Show.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Show.Location = new System.Drawing.Point(12, 337);
+            this.Show.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Show.Location = new System.Drawing.Point(72, 366);
             this.Show.Name = "Show";
             this.Show.Size = new System.Drawing.Size(102, 23);
             this.Show.TabIndex = 4;
@@ -84,13 +85,13 @@
             // 
             // ProgListHidden
             // 
-            this.ProgListHidden.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.ProgListHidden.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ProgListHidden.FormattingEnabled = true;
-            this.ProgListHidden.Location = new System.Drawing.Point(12, 366);
+            this.ProgListHidden.Location = new System.Drawing.Point(12, 404);
             this.ProgListHidden.Name = "ProgListHidden";
-            this.ProgListHidden.Size = new System.Drawing.Size(509, 238);
+            this.ProgListHidden.ScrollAlwaysVisible = true;
+            this.ProgListHidden.Size = new System.Drawing.Size(657, 251);
             this.ProgListHidden.TabIndex = 5;
             this.ProgListHidden.DoubleClick += new System.EventHandler(this.ProgListHidden_DoubleClick);
             // 
@@ -104,7 +105,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 616);
+            this.ClientSize = new System.Drawing.Size(681, 670);
             this.Controls.Add(this.ProgListHidden);
             this.Controls.Add(this.Show);
             this.Controls.Add(this.Hide);
