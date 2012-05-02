@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("HideShowWindows")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("KLA-Tencor")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("HideShowWindows")]
-[assembly: AssemblyCopyright("Copyright © KLA-Tencor 2010")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
